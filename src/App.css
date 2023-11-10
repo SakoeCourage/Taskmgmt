@@ -1,0 +1,29 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+
+.constrain{
+    @apply max-w-7xl mx-auto
+}
+
+@font-face {
+  font-family: logoFont;
+  src: url("./fonts/Lobster-Regular.ttf");
+}
+
+.Logo{
+    font-family: logoFont;
+}
+
+
+.card{
+    background-color: white;
+    padding: 2rem;
+    @apply shadow-sm
+}
+
+
+.activelink{
+    @apply text-primary-deep-pink font-semibold transition-all scale-105
+}
